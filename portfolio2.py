@@ -308,7 +308,7 @@ def show_projects():
             st.markdown("<br>", unsafe_allow_html=True)  # Add empty space
             st.markdown("<br>", unsafe_allow_html=True)  # Add empty space
 
-            project_img = Image.open(r"C:\Users\Amruta\Desktop\Niraj's Project\images\home_credit_img.jpeg")
+            project_img = Image.open("./images/home_credit_img.jpeg")
             st.image(project_img, use_column_width=True)
 
 
@@ -350,14 +350,14 @@ def show_projects():
             with col1:
                 st.subheader("1. Data Preprocessing")
                 st.write("Cleaned datasets, handled missing values, and generated new features.")
-                html_file_path1 = r"C:\Users\Amruta\Desktop\Niraj's Project\html\Data Preprocessing File1.html"
+                html_file_path1 = "./html/Data Preprocessing File1.html"
                 notebook_html1 = read_html(html_file_path1)
                 st.components.v1.html(notebook_html1, height=300, scrolling=True)
 
             with col2:
                 st.subheader("2. Feature Engineering")
                 st.write("Used recursive feature elimination to reduce features.")
-                html_file_path2 = r"C:\Users\Amruta\Desktop\Niraj's Project\html\Feature Engineering File 2.html"
+                html_file_path2 = "./html/Feature Engineering File 2.html"
                 notebook_html2 = read_html(html_file_path2)
                 st.components.v1.html(notebook_html2, height=300, scrolling=True)
 
@@ -366,14 +366,14 @@ def show_projects():
             with col3:
                 st.subheader("3. Exploratory Data Analysis (EDA)")
                 st.write("Analyzed data, plotted distributions, treated outliers, and scaled features.")
-                html_file_path3 = r"C:\Users\Amruta\Desktop\Niraj's Project\html\EDA File3.html"
+                html_file_path3 = "./html/EDA File3.html"
                 notebook_html3 = read_html(html_file_path3)
                 st.components.v1.html(notebook_html3, height=300, scrolling=True)
 
             with col4:
                 st.subheader("4. Assumption Testing")
                 st.write("Checked assumptions required for logistic regression.")
-                html_file_path4 = r"C:\Users\Amruta\Desktop\Niraj's Project\html\Assumptions File4.html"
+                html_file_path4 = "./html/Assumptions File4.html"
                 notebook_html4 = read_html(html_file_path4)
                 st.components.v1.html(notebook_html4, height=300, scrolling=True)
 
@@ -382,14 +382,14 @@ def show_projects():
             with col5:
                 st.subheader("5. Base Model - Logistic Regression")
                 st.write("Evaluated logistic regression model using confusion matrix and classification report.")
-                html_file_path5 = r"C:\Users\Amruta\Desktop\Niraj's Project\html\Base model-Logistic regression File 5.html"
+                html_file_path5 = "./html/Base model-Logistic regression File 5.html"
                 notebook_html5 = read_html(html_file_path5)
                 st.components.v1.html(notebook_html5, height=300, scrolling=True)
 
             with col6:
                 st.subheader("6. Machine Learning Models")
                 st.write("Implemented decision tree, KNN, random forest, AdaBoost, and XGBoost models using the SMOTE dataset.")
-                html_file_path6 = r"C:\Users\Amruta\Desktop\Niraj's Project\html\ML models File 6.html"
+                html_file_path6 = "./html/ML models File 6.html"
                 notebook_html6 = read_html(html_file_path6)
                 st.components.v1.html(notebook_html6, height=300, scrolling=True)
 
@@ -416,7 +416,7 @@ def show_projects():
             st.write("[GitHub Project Link](https://github.com/nirajc170503/Stock-tracker-App)")
 
         with col2:
-            project_img = Image.open(r"C:\Users\Amruta\Desktop\Niraj's Project\images\web_app_img.jpeg")
+            project_img = Image.open("./images/web_app_img.jpeg")
             st.image(project_img, use_column_width=True)
             
     # Button for toggling detailed information
@@ -468,7 +468,7 @@ def show_projects():
 
             with col2:
                 st.write("### Jupyter Notebook")
-                html_file_path = r"C:\Users\Amruta\Desktop\Niraj's Project\html\web_app_code.html"
+                html_file_path = "./html/web_app_code.html"
                 notebook_html = read_html(html_file_path)
                 st.components.v1.html(notebook_html, height=500, scrolling=True)
 
@@ -505,7 +505,7 @@ def show_projects():
             """)
             st.write("[GitHub Project Link](https://github.com/nirajc170503/Analysis-of-Zomato-dataset)")
         with col2:
-            project_img = Image.open(r"C:\Users\Amruta\Desktop\Niraj's Project\images\Zomato_logo.jpeg")
+            project_img = Image.open("./images/Zomato_logo.jpeg")
             st.image(project_img, use_column_width=True)
             
             
@@ -541,7 +541,7 @@ def show_projects():
 
             with col2:
                 st.write("### Jupyter Notebook")
-                html_file_path = r"C:\Users\Amruta\Desktop\Niraj's Project\html\MINI_project.html"
+                html_file_path = "./html/MINI_project.html"
                 notebook_html = read_html(html_file_path)
                 st.components.v1.html(notebook_html, height=500, scrolling=True)
 
@@ -565,7 +565,7 @@ def show_projects():
             st.write("[GitHub Project Link](https://github.com/nirajc170503/Data-Extraction-Sentiment-Analysis)")
 
         with col2:
-            project_img = Image.open(r"C:\Users\Amruta\Desktop\Niraj's Project\images\web_scraping_logo.jpeg")
+            project_img = Image.open("./images/web_scraping_logo.jpeg")
             st.image(project_img, use_column_width=True)
 
     # Button for toggling detailed information
@@ -591,7 +591,7 @@ def show_projects():
             
         with col2:
                 st.write("### Jupyter Notebook")
-                html_file_path = r"C:\Users\Amruta\Desktop\Niraj's Project\html\Blackcoffer project.html"
+                html_file_path = "./html/Blackcoffer project.html"
                 notebook_html = read_html(html_file_path)
                 st.components.v1.html(notebook_html, height=300, scrolling=True)
 
@@ -613,7 +613,7 @@ def show_projects():
             st.write("[GitHub Project Link](https://github.com/nirajc170503/SQL-Mini-Project)")
 
         with col2:
-            project_img = Image.open(r"C:\Users\Amruta\Desktop\Niraj's Project\images\sql_image.png")
+            project_img = Image.open("./images/sql_image.png")
             st.image(project_img, use_column_width=True)
 
     # Button for toggling detailed information
@@ -668,7 +668,7 @@ def show_projects():
         with col2:
             
 
-            project_img = Image.open(r"C:\Users\Amruta\Desktop\Niraj's Project\images\portfolio_image.jpeg")
+            project_img = Image.open("./images/portfolio_image.jpeg")
             st.image(project_img, use_column_width=True)            
 
 
