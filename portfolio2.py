@@ -111,12 +111,7 @@ Hello! I'm Niraj Chaudhari, a recent graduate with a passion for data science an
             )
             
 
-            st.markdown("""
-            <div style="padding: 10px; background-color: #f0f0f0; border-radius: 5px; text-align: center;">
-                <h3 style="color: #d9534f;">Currently Seeking Internship Opportunities</h3>
-                <p style="color: #333;">If you have an opening for a Data Analytics internship, I'd love to connect!</p>
-            </div>
-            """, unsafe_allow_html=True)
+            
                     
             
                 
