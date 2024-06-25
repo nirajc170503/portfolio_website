@@ -84,7 +84,7 @@ Hello! I'm Niraj Chaudhari, a recent graduate with a passion for data science an
         
         with col1:
             st.markdown("<br>", unsafe_allow_html=True)  # Add empty space
-            profile_img = Image.open(r"C:\Users\Amruta\Desktop\Niraj's Project\images\Profile_pic.jpeg")
+            profile_img = Image.open(r".\images\Profile_pic.jpeg")
             st.image(profile_img, use_column_width=True)
         
         with col2:
