@@ -714,6 +714,11 @@ show_skills()
 
 st.markdown("<div class='section-divider'></div>", unsafe_allow_html=True)
 
+# Projects section
+st.markdown("<a name='projects'></a>", unsafe_allow_html=True)
+st.markdown("<div class='section-title'>Projects</div>", unsafe_allow_html=True)
+show_projects()
+
 # contact section
 st.markdown("<a name='contact'></a>", unsafe_allow_html=True)
 st.markdown("<div class='section-title'>Contact</div>", unsafe_allow_html=True)
