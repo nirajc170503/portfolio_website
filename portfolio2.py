@@ -152,7 +152,7 @@ def show_education():
         col1, col2, col_x1 = st.columns([1, 5, 1])
         with col1:
             st.markdown("<br>", unsafe_allow_html=True)  # Add empty space
-            img_logo = Image.open(r"C:\Users\Amruta\Desktop\Niraj's Project\images\Great_Learning_Logo.jpg")
+            img_logo = Image.open("./images/Great_Learning_Logo.jpg")
             st.image(img_logo, use_column_width=True)
         with col2:
             st.markdown("<br>", unsafe_allow_html=True)  # Add empty space
@@ -166,11 +166,11 @@ def show_education():
             # Certification and Transcript Column
             
             st.write("**Certification:**")
-            img_cert = Image.open(r"C:\Users\Amruta\Desktop\Niraj's Project\images\GL_certificate.jpg")
+            img_cert = Image.open("./images/GL_certificate.jpg")
             st.image(img_cert, use_column_width=True)
 
             st.write("**Transcript:**")
-            img_transcript = Image.open(r"C:\Users\Amruta\Desktop\Niraj's Project\images\transcript1.jpg")
+            img_transcript = Image.open("./images/transcript1.jpg")
             st.image(img_transcript, use_column_width=True)
         
         
@@ -181,7 +181,7 @@ def show_education():
             # Second Certification: IIT Madras
             col5, col6, col7 = st.columns([1, 5, 1])
             with col5:
-                img_logo_iitm = Image.open(r"C:\Users\Amruta\Desktop\Niraj's Project\images\IITM _logo.jpg")
+                img_logo_iitm = Image.open("./images/IITM _logo.jpg")
                 st.image(img_logo_iitm, use_column_width=True)
             with col6:
                 st.write("### Foundation Level in Programming and Data Science")
@@ -193,11 +193,11 @@ def show_education():
             with col7:
                 
                 st.write("**Certification:**")
-                img_cert_iitm = Image.open(r"C:\Users\Amruta\Desktop\Niraj's Project\images\IITM_certificate_img.png")
+                img_cert_iitm = Image.open("./images/IITM_certificate_img.png")
                 st.image(img_cert_iitm, use_column_width=True)    
             
                 st.write("**Grade Card:**")  
-                img_gradecard = Image.open(r"C:\Users\Amruta\Desktop\Niraj's Project\images\IITM_gradecard.png")
+                img_gradecard = Image.open("./images/IITM_gradecard.png")
                 st.image(img_gradecard, use_column_width=True)
         
         
