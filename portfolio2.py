@@ -59,7 +59,7 @@ st.sidebar.markdown("[Introduction](#introduction)")
 st.sidebar.markdown("[Education](#education)")
 st.sidebar.markdown("[Skills](#skills)")
 st.sidebar.markdown("[Projects](#projects)")
-
+st.sidebar.markdown("[Contact](#contact)")
 
 
 
@@ -103,43 +103,11 @@ Hello! I'm Niraj Chaudhari, a recent graduate with a passion for data science an
             </div>
             """, unsafe_allow_html=True)
                     
-            # Load icons
-            icon_gmail = Image.open("./images/contact_icons/gmail_icon.png")
-            icon_phone = Image.open("./images/contact_icons/phone_icon.png")
-            icon_contact = Image.open("./images/contact_icons/contact_icon.png")
-            icon_github = Image.open("./images/contact_icons/github_icon.png")
-            icon_linkedin = Image.open("./images/contact_icons/linkedin_icon.png")
-
-            # Create the contact section
-            st.markdown("<br>", unsafe_allow_html=True)  # Add empty space
-            st.subheader("Contact Details")
-
-            with st.container():
-                col1,col3,col4,col6 = st.columns([0.05,0.3,0.05,0.3])
+            
                 
             
 
-                # Email
-                with col1:
-                    st.image(icon_gmail, width=30)
-                    st.write("nirajchaudhari170503@gmail.com")
-                
-                with col2:
-                    
-                    st.image(icon_phone, width=30)
-                    st.write("+91-8767281554")
-
-                
-
-                # LinkedIn
-                with col3:
-                    st.image(icon_linkedin, width=30)
-                    st.write("[LinkedIn](https://www.linkedin.com/in/niraj-chaudhari-50307a243/)")
-
-                
-                with col4:
-                    st.image(icon_github, width=30)
-                    st.write("[GitHub](https://github.com/nirajc170503)")
+            
        
         
 def show_education():
@@ -674,6 +642,49 @@ def show_projects():
             st.image(project_img, use_column_width=True)            
 
 
+def show_contact():
+    with st.container():
+        # Load icons
+            icon_gmail = Image.open(r"C:\Users\Amruta\Desktop\Niraj's Project\images\contact_icons\gmail_icon.png")
+            icon_phone = Image.open(r"C:\Users\Amruta\Desktop\Niraj's Project\images\contact_icons\phone_icon.png")
+            icon_contact = Image.open(r"C:\Users\Amruta\Desktop\Niraj's Project\images\contact_icons\contact_icon.png")
+            icon_github = Image.open(r"C:\Users\Amruta\Desktop\Niraj's Project\images\contact_icons\github_icon.png")
+            icon_linkedin = Image.open(r"C:\Users\Amruta\Desktop\Niraj's Project\images\contact_icons\linkedin_icon.png")
+
+            # Create the contact section
+            st.markdown("<br>", unsafe_allow_html=True)  # Add empty space
+            st.subheader("Contact Details")
+
+            with st.container():
+                col1,col2,col3,col4 = st.columns(4)
+                
+            
+
+                # Email
+                with col1:
+                    st.image(icon_gmail, width=30)
+                    st.write("nirajchaudhari170503@gmail.com")
+                
+                with col2:
+                    
+                    st.image(icon_phone, width=30)
+                    st.write("+91-8767281554")
+
+                
+
+                # LinkedIn
+                with col3:
+                    st.image(icon_linkedin, width=30)
+                    st.write("[LinkedIn](https://www.linkedin.com/in/niraj-chaudhari-50307a243/)")
+
+                
+                with col4:
+                    st.image(icon_github, width=30)
+                    st.write("[GitHub](https://github.com/nirajc170503)")
+
+
+
+
    
 
 
@@ -703,9 +714,9 @@ show_skills()
 
 st.markdown("<div class='section-divider'></div>", unsafe_allow_html=True)
 
-# Projects section
-st.markdown("<a name='projects'></a>", unsafe_allow_html=True)
-st.markdown("<div class='section-title'>Projects</div>", unsafe_allow_html=True)
-show_projects()
+# contact section
+st.markdown("<a name='contact'></a>", unsafe_allow_html=True)
+st.markdown("<div class='section-title'>Contact</div>", unsafe_allow_html=True)
+show_contact()
 
 st.markdown("<div style='padding-bottom: 50px;'></div>", unsafe_allow_html=True)
