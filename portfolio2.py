@@ -122,21 +122,23 @@ Hello! I'm Niraj Chaudhari, a recent graduate with a passion for data science an
                 # Email
                 with col1:
                     st.image(icon_gmail, width=30)
-                    st.image(icon_phone, width=30)
-                
-                with col3:
                     st.write("nirajchaudhari170503@gmail.com")
+                
+                with col2:
+                    
+                    st.image(icon_phone, width=30)
                     st.write("+91-8767281554")
 
                 
 
                 # LinkedIn
-                with col4:
+                with col3:
                     st.image(icon_linkedin, width=30)
-                    st.image(icon_github, width=30)
-                
-                with col6:
                     st.write("[LinkedIn](https://www.linkedin.com/in/niraj-chaudhari-50307a243/)")
+
+                
+                with col4:
+                    st.image(icon_github, width=30)
                     st.write("[GitHub](https://github.com/nirajc170503)")
        
         
