@@ -96,6 +96,21 @@ Hello! I'm Niraj Chaudhari, a recent graduate with a passion for data science an
             st.write(description)
             st.markdown("<br>", unsafe_allow_html=True)  # Add empty space
 
+            # resume button
+            resume_file_path = r"C:\Users\Amruta\Desktop\Niraj's Project\resume\Resume - Niraj Chaudhari.pdf"
+
+            with open(resume_file_path, "rb") as file:
+                resume_pdf = file.read()
+                
+            # Add a download button for the resume in the sidebar
+            st.download_button(
+                label="📄 Download Resume",
+                data=resume_pdf,
+                file_name="Niraj_Chaudhari_Resume.pdf",
+                mime="application/pdf"
+            )
+            
+
             st.markdown("""
             <div style="padding: 10px; background-color: #f0f0f0; border-radius: 5px; text-align: center;">
                 <h3 style="color: #d9534f;">Currently Seeking Internship Opportunities</h3>
