@@ -104,11 +104,11 @@ Hello! I'm Niraj Chaudhari, a recent graduate with a passion for data science an
             """, unsafe_allow_html=True)
                     
             # Load icons
-            icon_gmail = Image.open(r"C:\Users\Amruta\Desktop\Niraj's Project\images\contact_icons\gmail_icon.png")
-            icon_phone = Image.open(r"C:\Users\Amruta\Desktop\Niraj's Project\images\contact_icons\phone_icon.png")
-            icon_contact = Image.open(r"C:\Users\Amruta\Desktop\Niraj's Project\images\contact_icons\contact_icon.png")
-            icon_github = Image.open(r"C:\Users\Amruta\Desktop\Niraj's Project\images\contact_icons\github_icon.png")
-            icon_linkedin = Image.open(r"C:\Users\Amruta\Desktop\Niraj's Project\images\contact_icons\linkedin_icon.png")
+            icon_gmail = Image.open("./mages/contact_icons/gmail_icon.png")
+            icon_phone = Image.open("./mages/contact_icons/phone_icon.png")
+            icon_contact = Image.open("./mages/contact_icons/contact_icon.png")
+            icon_github = Image.open("./mages/contact_icons/github_icon.png")
+            icon_linkedin = Image.open("./mages/contact_icons/linkedin_icon.png")
 
             # Create the contact section
             st.markdown("<br>", unsafe_allow_html=True)  # Add empty space
