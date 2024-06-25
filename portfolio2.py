@@ -645,11 +645,11 @@ def show_projects():
 def show_contact():
     with st.container():
         # Load icons
-            icon_gmail = Image.open(r"C:\Users\Amruta\Desktop\Niraj's Project\images\contact_icons\gmail_icon.png")
-            icon_phone = Image.open(r"C:\Users\Amruta\Desktop\Niraj's Project\images\contact_icons\phone_icon.png")
-            icon_contact = Image.open(r"C:\Users\Amruta\Desktop\Niraj's Project\images\contact_icons\contact_icon.png")
-            icon_github = Image.open(r"C:\Users\Amruta\Desktop\Niraj's Project\images\contact_icons\github_icon.png")
-            icon_linkedin = Image.open(r"C:\Users\Amruta\Desktop\Niraj's Project\images\contact_icons\linkedin_icon.png")
+            icon_gmail = Image.open("./images/contact_icons/gmail_icon.png")
+            icon_phone = Image.open("./images/contact_icons/images\contact_icons\phone_icon.png")
+            icon_contact = Image.open("./images/contact_icons/images\contact_icons\contact_icon.png")
+            icon_github = Image.open("./images/contact_icons/images\contact_icons\github_icon.png")
+            icon_linkedin = Image.open("./images/contact_icons/images\contact_icons\linkedin_icon.png")
 
             # Create the contact section
             st.markdown("<br>", unsafe_allow_html=True)  # Add empty space
