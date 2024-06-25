@@ -97,7 +97,7 @@ Hello! I'm Niraj Chaudhari, a recent graduate with a passion for data science an
             st.markdown("<br>", unsafe_allow_html=True)  # Add empty space
 
             # resume button
-            resume_file_path = r"C:\Users\Amruta\Desktop\Niraj's Project\resume\Resume - Niraj Chaudhari.pdf"
+            resume_file_path = "./resume/Resume - Niraj Chaudhari.pdf"
 
             with open(resume_file_path, "rb") as file:
                 resume_pdf = file.read()
